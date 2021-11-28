@@ -1,3 +1,7 @@
+@font-face {
+    font-family: fontname;
+    src: url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2);
+}
 h1 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
     color: rgb(112, 0, 177);
@@ -28,4 +32,7 @@ p {
     color: darkorchid;
     background-color: paleturquoise;
 
+}
+.customfont {
+    font-family: fontname, Verdana, sans-serif;
 }
