@@ -36,3 +36,8 @@ p {
 .customfont {
     font-family: fontname, Verdana, sans-serif;
 }
+.boxme {
+    width: 100px;
+    margin: 0 auto;
+    padding: 30px;
+}
