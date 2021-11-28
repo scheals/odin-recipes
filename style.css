@@ -1,0 +1,31 @@
+h1 {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    color: rgb(112, 0, 177);
+    text-align: center;
+    font-size: 60px;
+    background-color: hsl(240, 30%, 70%);
+}
+ul {
+    text-align: center;
+    font-size: 28px;
+}
+li {
+    background-color: hsl(240, 70%, 80%);
+}
+.first {
+    font-family: "Lucida Console", "Courier New", monospace;
+}
+.second {
+    font-family: "Lucida Handwriting", "Brush Script MT", cursive;
+}
+.third {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+}
+p {
+    font-family: Garamond, Georgia, "Times New Roman", serif;
+    text-align: center;
+    font-size: 22px;
+    color: darkorchid;
+    background-color: paleturquoise;
+
+}
