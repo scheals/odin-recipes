@@ -1,5 +1,5 @@
 # odin-recipes
-##A brutalist basic recipe website
+## A brutalist basic recipe website
 
 This project is about creating a basic recipe website following the tutorial from The Odin Project.
 
