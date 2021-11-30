@@ -2,19 +2,39 @@
     font-family: fontname;
     src: url(https://fonts.gstatic.com/s/lato/v16/S6uyw4BMUTPHjx4wXiWtFCc.woff2);
 }
-h1 {
+body {
+    background-color: #1F1D36;
+}
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    color: rgb(112, 0, 177);
+    color: #864879;
     text-align: center;
+    background-color: #3F3351;
+}
+h1 {
     font-size: 60px;
-    background-color: hsl(240, 30%, 70%);
 }
-ul {
-    text-align: center;
+img.food {
+    display:block;
+    margin: 0px auto;
+}
+ul.food,
+ol.food {
+    
     font-size: 28px;
+    margin: 8px;
+    padding-left: 1em;
+    background-color: #864879;
 }
-li {
-    background-color: hsl(240, 70%, 80%);
+.food li {
+    color: #E9A6A6;
+    font-size: 18px;
+    padding: 0.5em;
 }
 .first {
     font-family: "Lucida Console", "Courier New", monospace;
@@ -25,12 +45,18 @@ li {
 .third {
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
+.first,
+.second,
+.third {
+    text-align: center;
+}
+
 p {
     font-family: Garamond, Georgia, "Times New Roman", serif;
     text-align: center;
     font-size: 22px;
-    color: darkorchid;
-    background-color: paleturquoise;
+    color: #E9A6A6;
+    
 
 }
 .customfont {
@@ -40,4 +66,18 @@ p {
     width: 100px;
     margin: 0 auto;
     padding: 30px;
+}
+
+.flex-container {
+    display: flex;
+    margin-top: 1em;
+}
+
+.flex-container div {
+    flex: 1;
+    text-align: center;
+    border: 0.5em solid #3F3351;
+    background-color: #864879;
+    font-size: 28px;
+    color: #E9A6A6;
 }
